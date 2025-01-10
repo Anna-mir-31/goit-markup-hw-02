@@ -3,7 +3,7 @@
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -29,6 +29,7 @@
   display: flex;
   align-items: center;
   margin-right: 76px;
+  
 }
 
 .logo-highlight {
