@@ -49,10 +49,10 @@
   letter-spacing: 0.02em;
 }
 
-.nav-link:hover {
+.nav-link-first:hover {
   color: #404bbf;
 }
-.nav-link:focus {
+.nav-link-first:focus {
   color: #404bbf;
 }
 
