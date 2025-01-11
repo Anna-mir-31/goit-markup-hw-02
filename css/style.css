@@ -7,11 +7,11 @@
 }
 
 .header {
-  display: flex;
+  /*display: flex;*/
   justify-content: space-between;
   height: 72px;
-  padding: 24px 156px;
-  border-bottom: 1px solid #e7e9fc;
+  /*padding: 24px 156px;*/
+  /*border-bottom: 1px solid #e7e9fc;*/
 }
 
 .logo {
@@ -35,6 +35,7 @@
   float: right;
   margin: 0;
 }
+
 .nav-list li {
   margin-left: 40px;
   float: left;
@@ -45,6 +46,7 @@
   margin: 0;
   font-style: normal;
   margin-left: 76px;
+  margin-top: -24px;
 }
 
 .nav-link {
@@ -75,6 +77,7 @@
   list-style: none;
   margin: 0;
 }
+
 .contact-list li {
   float: left;
   margin-right: 40px;
@@ -93,20 +96,23 @@
 .contact-link:hover {
   color: #404bbf;
 }
+
 .contact-link:focus {
   color: #404bbf;
 }
+
 .banner {
-  display: flex;
-  flex-direction: column;
+  /*display: flex;*/
+  /*flex-direction: column;*/
   justify-content: center;
   align-items: center;
   height: 600px;
   background-color: #2e2f42;
   text-align: center;
-  padding: 40px 20px;
-  box-sizing: border-box;
+  /*padding: 40px 20px;*/
+  /*box-sizing: border-box;*/
 }
+
 .banner-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -117,6 +123,7 @@
   color: #fff;
   margin: 0;
 }
+
 .banner-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -125,14 +132,15 @@
   color: #ffffff;
   background-color: #4d5ae5;
   border: none;
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   padding: 12px 32px;
   cursor: pointer;
   text-align: center;
   margin-top: 48px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
   letter-spacing: 0.04em;
 }
+
 .banner-btn:hover {
   background-color: #404bbf;
 }
@@ -142,10 +150,12 @@
   color: #ffffff;
   outline: none;
 }
+
 .services {
-  padding: 120px 156px;
+  /*padding: 120px 156px;*/
   text-align: center;
 }
+
 .services-title {
   font-weight: 500;
   font-size: 20px;
@@ -155,9 +165,9 @@
 }
 
 .services-list {
-  display: flex;
+  /*display: flex;*/
   justify-content: space-between;
-  gap: 24px;
+  /*gap: 24px;*/
   list-style: none;
   margin-top: 0;
   padding: 0;
@@ -187,8 +197,9 @@
   color: #434455;
   margin: 0;
 }
+
 .team {
-  padding: 120px 156px;
+  /*padding: 120px 156px;*/
   background-color: #f4f4fd;
   text-align: center;
 }
@@ -205,19 +216,18 @@
 }
 
 .team-list {
-  display: flex;
+  /*display: flex;*/
   justify-content: space-between;
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 24px;
+  /*gap: 24px;*/
 }
 
 .team-item {
   background: #ffffff;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  border-radius: 0 0 4px 4px;
+  /*box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);*/
+  /*border-radius: 0 0 4px 4px;*/
   padding: 0px 0px 32px 0px;
   overflow: hidden;
   text-align: center;
@@ -250,8 +260,9 @@
   color: #434455;
   margin: 0 0 16px;
 }
+
 .portfolio {
-  padding: 120px 156px;
+  /*padding: 120px 156px;*/
   background-color: #ffffff;
 }
 
@@ -268,9 +279,9 @@
 }
 
 .portfolio-list {
-  display: flex;
+  /*display: flex;*/
   flex-wrap: wrap;
-  gap: 40px 24px;
+  /*gap: 40px 24px;*/
   justify-content: space-between;
   list-style: none;
   margin: 0;
@@ -287,18 +298,19 @@
   padding: 0;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  border-bottom: 1px solid #e7e9fc;
+  /*border-bottom: 1px solid #e7e9fc;*/
   background-color: #ffffff;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   text-align: left;
-  display: flex;
-  flex-direction: column;
+  /*display: flex;*/
+  /*flex-direction: column;*/
 }
 
 .portfolio-image {
   width: 100%;
   height: auto;
 }
+
 .portfolio-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -310,6 +322,7 @@
   margin-bottom: 8px;
   letter-spacing: 0.02em;
 }
+
 .portfolio-category {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -319,9 +332,10 @@
   margin: 0px 16px;
   letter-spacing: 0.02em;
 }
+
 .footer {
   background-color: #2e2f42;
-  padding: 100px 156px;
+  /*padding: 100px 156px;*/
   text-align: left;
   color: #ffffff;
 }
@@ -331,7 +345,7 @@
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  display: flex;
+  /*display: flex;*/
   align-items: center;
   font-weight: 700;
   font-size: 18px;
@@ -355,3 +369,8 @@
 .footer a:hover {
   color: #4d5ae5;
 }
+
+
+
+
+
