@@ -78,10 +78,7 @@
   letter-spacing: 0.02em;
 }
 
-.contact-link:hover {
-  color: #404bbf;
-}
-
+.contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
 }
