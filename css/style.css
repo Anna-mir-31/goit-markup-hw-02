@@ -49,6 +49,12 @@
   letter-spacing: 0.02em;
 }
 
+.nav-link:hover {
+  color: #404bbf;
+}
+.nav-link:focus {
+  color: #404bbf;
+}
 
 .contact-info {
   margin: 0;
@@ -234,7 +240,7 @@
 }
 
 .portfolio-item {
- /*border-left: 1px solid #e7e9fc;
+  /*border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;*/
   background-color: #ffffff;
 }
