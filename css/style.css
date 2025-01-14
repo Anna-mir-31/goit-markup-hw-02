@@ -27,9 +27,7 @@
 }
 
 .nav {
-  font-style: normal;
-  float: right;
-  margin: 0;
+
 }
 
 .nav-list {
@@ -184,8 +182,6 @@
 
 .team-item {
   background: #ffffff;
-  overflow: hidden;
-  text-align: center;
 }
 
 .team-name {
